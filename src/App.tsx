@@ -18,6 +18,11 @@ function App() {
         >
           I Love ACA
         </a>
+<br></br>
+        <a href='index.html'>
+          Start
+        </a>
+
       </header>
     </div>
   );
