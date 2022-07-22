@@ -84,7 +84,7 @@ var questions = [
                     "C. git fork", 
                     "D. git clone"],
                     "D. git clone"),
-    new Question("Which is command is used to sets the author name and email address respectively to be used with your commits?",
+    new Question("Which is command used to sets the author name and email address respectively to be used with your commits?",
                    ["A. git config -global user.name “[name]”", 
                     "B. git config name", 
                     "C. git configure name", 
@@ -101,7 +101,7 @@ var questions = [
                    "B. git commit",
                    "C. git commit -m 'initial' ", 
                    "D. ls"], 
-                   "A. git add ."),
+                   "C. git commit -m 'initial'"),
     new Question("which command is used to upload local repository content to a remote repository",
                  ["A. git push", 
                  "B. git commit push", 
@@ -390,3 +390,4 @@ var quiz = new Quiz(questions);
  
 // display quiz
 populate();
+
